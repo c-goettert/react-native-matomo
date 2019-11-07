@@ -350,6 +350,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VN725332M5;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../ios/Pods/Headers/Public/**/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -363,6 +365,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VN725332M5;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../../ios/Pods/Headers/Public/**/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
